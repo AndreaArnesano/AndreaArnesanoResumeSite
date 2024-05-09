@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      class="style-link"
+      rel="stylesheet"
+      href="style/home-page-style-light.css"
+    />
+    <title>HomePage</title>
+  </head>
+  <body>
+    <div class="header">
+      <button type="button" class="hamburger-button">
+        <img class="hamburger-image" src="images/hamburger.png" alt="" />
+      </button>
+      <div class="header-button">
+        <button class="button home-button">Home</button>
+        <button class="button skill-button">Abilità</button>
+        <button class="button project-button">Progetti</button>
+        <button class="button contact-button">Contatti</button>
+      </div>
+      <div class="hamburger-menu hidden">
+        <button type="button" class="switch-theme-button on">
+          <img
+            class="switch-theme-image"
+            src="images/lightbulb-on.png"
+            alt=""
+          />
+        </button>
+        <button class="switch-language-button">
+          <img
+            class="switch-language-image"
+            src="images/italian-flag.png"
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
+
+    <div class="home-page">
+      <div class="introduction">
+        <div class="introduction-title">
+          <h2 class="introduction-title-h2">Salve! Sono</h2>
+          <h1 class="introduction-title-h1">Andrea Arnesano</h1>
+        </div>
+        <button class="resume-button">Curriculum</button>
+      </div>
+      <div class="skills">
+        <h1 class="skills-title">ABILITÀ</h1>
+        <div class="skills-container">
+          <div class="skills-box-1">
+            <h2 class="skills-box-1-h2">Abilità</h2>
+            <li class="skills-box-1-li-1">Ricerca</li>
+            <li class="skills-box-1-li-2">Collaborazione</li>
+            <li class="skills-box-1-li-3">Autodidattica</li>
+            <li class="skills-box-1-li-4">Pianificazione</li>
+            <li class="skills-box-1-li-5">Sviluppo</li>
+            <li class="skills-box-1-li-6">Progettazione</li>
+            <li class="skills-box-1-li-7">Comunicazione</li>
+            <li class="skills-box-1-li-8">Volontà ad imparare</li>
+          </div>
+          <div class="skills-box-2">
+            <h2>Software</h2>
+            <li>VScode</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Blender</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Premiere</li>
+            <li>Procreate</li>
+          </div>
+          <div class="skills-box-3">
+            <h2 class="skills-box-3-h2">Linguaggi</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>SQL</li>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <h1 class="projects-title">PROGETTI</h1>
+        <div class="projects-images">
+          <img
+            class="project-image-1 project-image"
+            src="images/coming-soon.jpg"
+          />
+          <img
+            class="project-image-2 project-image"
+            src="images/coming-soon.jpg"
+          />
+          <img
+            class="project-image-3 project-image"
+            src="images/coming-soon.jpg"
+          />
+          <img
+            class="project-image-4 project-image"
+            src="images/coming-soon.jpg"
+          />
+          <img
+            class="project-image-5 project-image"
+            src="images/coming-soon.jpg"
+          />
+          <img
+            class="project-image-6 project-image"
+            src="images/coming-soon.jpg"
+          />
+        </div>
+      </div>
+
+      <footer>
+        <div class="contact">
+          <div class="contact-box">
+            <img class="github-logo" src="images/github-mark-white.png" />
+            <img class="instagram-logo" src="images/instagram-logo.png" />
+            <img class="pinterest-logo" src="images/pinterest-logo.png" />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="contact-me-direct-button-container">
+      <button class="contact-me-direct-button">
+        <img class="slide-up-image" src="images/slide-up.png" alt="" />
+      </button>
+    </div>
+
+    <div class="contact-me-direct">
+      <form action="sendEmail.php" method="post">
+        <input
+          class="email-input"
+          name="email-input"
+          type="email"
+          placeholder="La tua email"
+        />
+        <input
+          class="message-input"
+          name="message-input"
+          type="text"
+          placeholder="Il tuo messaggio"
+        />
+        <input
+          class="submit-button"
+          name="submit-button"
+          type="submit"
+          value="Invia"
+        />
+      </form>
+    </div>
+
+    <script src="scripts/home-page-script.js"></script>
+  </body>
+</html>

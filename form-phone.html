@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Send your message</title>
+    <link
+      class="style-link-form"
+      rel="stylesheet"
+      href="style/form-phone-dark.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-form">
+      <h1>Send me a message</h1>
+      <form action="sendEmail.php" method="post">
+        <input
+          class="email-input"
+          type="email"
+          name="email-input"
+          placeholder="La tua email"
+        />
+        <textarea
+          class="message-input"
+          name="message-input"
+          placeholder="Il tuo messaggio"
+          rows="5"
+          cols="30"
+        ></textarea>
+        <input
+          class="submit-button"
+          name="submit-button"
+          type="submit"
+          value="Invia"
+        />
+      </form>
+    </div>
+    <script src="scripts/form-phone-script.js"></script>
+  </body>
+</html>
