@@ -204,6 +204,14 @@ body {
   width: 1fr;
 }
 
+.skills-box-1,
+.skills-box-2,
+.skills-box-3 {
+  display: flex;
+  flex-direction: column;
+  width: 1fr;
+}
+
 li::marker {
   font-size: 30px;
   color: #7db18e;
@@ -252,7 +260,6 @@ li {
   width: 1fr;
   height: 300px;
   background-color: #a2e4b8;
-  border-radius: 300px 300px 0 0;
 }
 
 .contact-box {
@@ -311,7 +318,6 @@ li {
   height: 200px;
   background-color: #a2e4b8;
   border-radius: 25px;
-  transition: 0.2s;
 }
 
 .email-input {

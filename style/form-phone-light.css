@@ -87,3 +87,14 @@ input:focus {
   cursor: pointer;
   background-color: #5ea079;
 }
+
+.go-back-button {
+  margin-top: 10px;
+  background: none;
+  border: none;
+}
+
+.go-back-image {
+  width: 30px;
+  height: 30px;
+}

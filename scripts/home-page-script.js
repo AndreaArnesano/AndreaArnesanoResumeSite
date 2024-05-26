@@ -61,14 +61,11 @@ document.querySelector(".pinterest-logo").addEventListener("click", () => {
 //hamburger button
 document.querySelector(".hamburger-button").addEventListener("click", () => {
   if (document.querySelector(".hamburger-menu").classList.contains("hidden")) {
-    document.querySelector(".hamburger-image").style.transform =
-      "rotate(90deg)";
     document.querySelector(".hamburger-menu").classList.remove("hidden");
     document.querySelector(".hamburger-menu").classList.add("visible");
   } else if (
     document.querySelector(".hamburger-menu").classList.contains("visible")
   ) {
-    document.querySelector(".hamburger-image").style.transform = "rotate(0deg)";
     document.querySelector(".hamburger-menu").classList.remove("visible");
     document.querySelector(".hamburger-menu").classList.add("hidden");
   }
